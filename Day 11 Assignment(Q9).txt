@@ -1,0 +1,108 @@
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+Solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>HTML Input Tags:</h1>
+            <label for="">
+                Text
+                <input type="Text" value="Welcome to HTML" placeholder=""/>
+            </label><br></br>
+
+             <label for="">
+                Number
+                <input type="Number" value="123456789" placeholder=""/>
+            </label><br></br>
+            
+            <label for="">
+                E-mail
+                <input type="email" value="xyz@gmail.com" placeholder=""/>
+            </label><br></br>
+
+            <label for="">
+                Date
+                <input type="date" value="2022-01-01"/>
+            </label><br></br>
+         
+            <label for="">
+            Date/Time
+            <input type="datetime-local" value="2022-01-01T20:20"/>
+            </label><br></br>
+
+            <label for="">
+            Checkbox
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+                <input type="checkbox"/>
+            </label><br></br>
+
+            <label for="">
+                Button
+                <input type="button" value="Submit"/>
+            </label><br></br>
+        
+            <label for="">
+            RadioButton:
+            <p>Please select your favorite Web language:</p>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+            </label><br></br>
+
+            <label for="">
+            Colour
+            <input type="color" value="#0000FF"/>
+            </label><br></br>
+       
+            <label for="">
+            Range
+            <input type="range" value="50"/>
+            </label><br></br>
+        
+            <label for="">
+            File
+            <input type="file"/>
+            </label><br></br>
+
+            <label for="">
+            Image
+            <input type="image" src="https://www.google.co.in/imghp?hl=en&ogbl"/>
+            </label><br></br>
+            
+            <label for="">
+            Password
+            <input type="password" value="Savitha123@#$"/>
+            </label><br></br>
+
+            <label for="">
+            Reset
+            <input type="reset"/>
+            </label><br></br>
+        
+             <label for="">
+            URL
+            <input type="url" value="https://www.guvi.in/"/>
+            </label><br></br>
+            
+            <label for="">
+            Submit
+            <input type="submit"/>
+            </label><br></br>
+            
+            </fieldset>
+    </form>
+</body>
+</html>

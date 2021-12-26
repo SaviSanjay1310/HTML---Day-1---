@@ -1,0 +1,36 @@
+11. Create an HTML page, which should contain all types of input elements.
+
+Solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>Types of input elements in HTML:</h1>
+    Text: <input type="text"><br><br>
+    Password: <input type="password"><br><br>
+    Image: <input type="image"><br><br>
+    File: <input type="file"><br><br>
+    Date: <input type="date"><br><br>
+    Number:<input type="number"><br><br>
+    Email: <input type=""><br><br>
+    Url: <input type="url"><br><br>
+    Time: <input type="time"><br><br>
+    DateTime-Local: <input type="datetime-local"><br><br>
+    Color: <input type="color"><br><br>
+    Search: <input type="search"><br><br>
+    Submit: <input type="submit"><br><br>
+    Week: <input type="week"><br><br>
+    Checkbox: <input type="checkbox"><br><br>
+    Radio: <input type="radio"><br><br>
+    Range: <input type="range"><br><br>
+    Reset: <input type="reset"><br><br>
+</div>
+</body>
+</html>
